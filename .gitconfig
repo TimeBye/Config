@@ -1,0 +1,18 @@
+[user]  
+    name = Ziling Zhong
+    email = setzero.zhong@gmail.com  
+[alias]  
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit  
+    co = checkout  
+    ci = commit  
+    br = branch  
+    unstage = reset HEAD  
+    last = log -1  
+    st = status  
+[gui]  
+    encoding = utf-8  
+[push]  
+    default = simple  
+[core]  
+    autocrlf = input  
+    editor = vim  
